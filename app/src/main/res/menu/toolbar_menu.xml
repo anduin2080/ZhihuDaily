@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ContentActivity">
+    <item
+        android:id="@+id/message"
+        android:icon="@mipmap/message"
+        android:title="message"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/setting_night_mode"
+        android:title="@string/setting_night_mode"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/setting_option"
+        android:title="@string/setting_option"
+        app:showAsAction="never"></item>
+</menu>
